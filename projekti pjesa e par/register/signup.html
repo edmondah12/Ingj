@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css.css">
+    <link rel="stylesheet" href="signup.css">
+    <script type="text/javascript" src="../signup.js"></script>
+</head>
+<header id="main">
+
+    <div class="nav">
+        <ul>
+             <a href="../index.html"id="logo">
+                    Food World
+                </a>
+
+                
+
+                <a href="../Recipes.html">Recipes</a>
+
+
+            <a href="../aboutus.html">Contact Us</a>
+            <li id="memb">
+                <div class="dropdown">
+                    <button class="dropbtn">Members</button>
+                    <div class="dropdown-content">
+                        <a href="login.html">Login</a>
+                        <a href="signup.html">Sign-up</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+</header>
+<main class="sign">
+    <form name="Signup" id="SignupForm" action="" method="post" onsubmit="return validateForm()">
+        <label>Emri:</label>
+        <input class="input" type="text" name="emri" placeholder="Emri..." />
+        <div class="errors" id="EmriErr"></div>
+        <label>Mbiemri:</label>
+        <input class="input" type="text" name="mbiemri" placeholder="Mbiemri..." />
+        <div class="errors" id="MbiemriErr"></div>
+        <label>Username:</label>
+        <input class="input" type="text" name="username" placeholder="Username..." />
+        <div class="errors" id="usernameErr"></div>
+        <label>Email:</label>
+        <input class="input" type="text" name="email" placeholder="Emaili..." />
+        <div class="errors" id="emailErr"></div>
+        <label>Password:</label>
+        <input class="input" type="password" name="password" placeholder="Password..." />
+        <div class="errors" id="passwordErr"></div>
+        <label>Konfirmo Password-in:</label>
+        <input class="input" type="password" name="KonfPassword" placeholder="Konfirmo Password-in..." />
+        <div class="errors" id="KpasswordErr"></div>
+
+        <input id="submit" type="submit" class="input submit" value="register" />
+
+
+    </form>
+</main>
+<footer id="Foot">
+        <br>
+        <p>Food recipes from all around the world!</p>
+        <p>Thank you for visiting us!</p>
+        <br>
+        <p > FoodWorld.com &copy;Copyright 2020 </p>
+    </footer>
+
+<body>
+
+</body>
+
+</html>
