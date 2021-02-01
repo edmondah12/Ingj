@@ -1,0 +1,76 @@
+#SignupForm {
+
+    width: 38%;
+    left: 30%;
+    min-height: 370px;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.sign{
+    background-image: url('https://bakerbynature.com/wp-content/uploads/2016/03/IMG_7728-7-3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 98.9vw;
+    height: 160vh;
+    margin-top: -126px;
+}
+
+label {
+    color: #452713;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 10%;
+    font-family: cursive;
+    font-family: fantasy;
+    background-color: rgb(161, 119, 98);
+    opacity: 70%;
+}
+
+.input {
+    margin-top: 8px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border: 0px;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #cae0d9;
+}
+
+#submit {
+    margin: 5%;
+    position: relative;
+    padding: 5px;
+    width: 10%;
+    left: 40%;
+    background-color: rgb(155, 160, 150);
+    color: black;
+    font-family: cursive;
+}
+
+#submit:hover {
+    background-color: rgb(143, 47, 44);
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
+    border-radius: 40%;
+}
+
+.errors {
+    color: black;
+    margin-top: 10px;
+    font-size: 10px;
+    position: relative;
+    left: 25%;
+}
