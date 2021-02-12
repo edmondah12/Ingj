@@ -36,7 +36,7 @@
             <textarea id="Arsyeja" name="Arsyeja" placeholder="Shkruaj arsyen e kontaktimi apo problemete teknike.." style="height:170px"></textarea>
             <div class="errors" id="arsyejaErr"></div>
 
-            <input id="submit" type="submit" class="input submit" value="Dërgo" />
+            <input id="submit" type="submit" name="dergo" class="input submit" value="Dërgo" />
 
 
         </form>
